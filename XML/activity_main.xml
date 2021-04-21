@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginStart="-60dp"
+        android:layout_marginTop="-10dp"
+        android:background="#E89B95"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/cmm"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-64dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="399dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="cursive"
+        android:text="Charity Match Maker"
+        android:textColor="#CD1717"
+        android:textSize="90sp" />
+
+</RelativeLayout>
